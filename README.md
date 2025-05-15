@@ -23,7 +23,7 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 
 | Name        | Target Dataset | Train/Val/Test     | Detail Information                                                                                                                                     | Pre-processing                                                                                             |
 |-------------|----------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| PC-ImageCAS | ImageCAS [[3]](#ref3)  | 700/100/200<br>5600/800/1600 | 1. Scanner: Siemens 128-slice dual-source  <br> 2. Planar resolution: 0.29 ~ 0.43 mm²  <br> 3. Slice thickness: 0.25 ~ 0.5 mm  <br> 4. x/y-size: 512 voxels, z-size: ~206 ~ 275 voxels | 1. Resample the resolution to 1 mm³  <br> 2. Normalize via `max(min(0,x),2048)/2048` <br> 3. Obtain segmentation results <br> 4. Extract **aorta** and main **coronary** branches <br> 5. Generate point cloud based on surface of **aorta** <br> 6. Generate point cloud based on centerline of **coronary** |
+| PC-ImageCAS | ImageCAS [[1]](#ref1)  | 700/100/200<br>5600/800/1600 | 1. Scanner: Siemens 128-slice dual-source  <br> 2. Planar resolution: 0.29 ~ 0.43 mm²  <br> 3. Slice thickness: 0.25 ~ 0.5 mm  <br> 4. x/y-size: 512 voxels, z-size: ~206 ~ 275 voxels | 1. Resample the resolution to 1 mm³  <br> 2. Normalize via `max(min(0,x),2048)/2048` <br> 3. Obtain segmentation results <br> 4. Extract **aorta** and main **coronary** branches <br> 5. Generate point cloud based on surface of **aorta** <br> 6. Generate point cloud based on centerline of **coronary** |
 | PC-PTR      | PTR [[2]](#ref2)      | 599/80/160<br>4472/640/1280  | 1. Scan from multiple medical centers  <br> 2. Resolution: already processed to 1 mm³  <br> 3. x/y-size: 512 voxels, z-size: 177 ~ 798 voxels           | Generate point cloud based on centerline of vessels                                                        |
 
 ---
@@ -39,6 +39,6 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 ### 📌 Notes
 > To ensure a diverse and challenging reconstruction task, each patient generates 8 distinct input cases, capturing a wide range of conditions.
 
-<a name="ref3">[3]</a> ImageCAS: [https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)  
+<a name="ref1">[1]</a> ImageCAS: [https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)  
 <a name="ref2">[2]</a> PTR: [https://github.com/M3DV/pulmonary-tree-repairing](https://github.com/M3DV/pulmonary-tree-repairing)
 
