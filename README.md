@@ -59,6 +59,6 @@ Complex tubular structures are essential in medical imaging and computer-assiste
     ├── 2.ply
     ├── ...
     └── 300.ply
-├── Test/               # Test dataset
-└── Val/                # Validation dataset
+├── Test/                # Test dataset
+└── Val/                 # Validation dataset
 
