@@ -5,6 +5,8 @@
 ![GitHub forks](https://img.shields.io/github/forks/YaoleiQi/PCCAC)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/PCCAC)](https://github.com/YaoleiQi/PCCAC)
 
+> **Download** PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing)
+
 ## Key Innovation
 - 🔍 **The first point cloud-based tubular structure reconnection dataset**: To our best knowledge, we build the first point cloud-based coronary artery (PC-CAC) dataset from clinical data. This dataset will be open-sourced, offering a new perspective for tubular structure reconnection and fostering advancements in this field.
 - ⚡ **A novel exploration and high-performing baseline**: Our work represents the first attempt to explore tubular structure reconnection from a point cloud perspective. We propose a baseline designed for accurately reconnecting fractured tubular structures, comprising a detail-preserved feature extractor, a multiple dense refinement strategy, and a global-to-local loss function. These methods cooperate to enhance detail preservation and effectively handle hard-to-represent regions.
@@ -16,10 +18,6 @@
 ## Abstract
 Complex tubular structures are essential in medical imaging and computer-assisted diagnosis, where their integrity enhances anatomical visualization and lesion detection. However, existing segmentation algorithms struggle with structural discontinuities, particularly in severe clinical cases such as coronary artery stenosis and vessel occlusions, which leads to undesired discontinuity and compromising downstream diagnostic accuracy. Therefore, it is imperative to reconnect discontinuous structures to ensure their completeness. In this study, we explore the tubular structure reconnection from a unique point cloud perspective for the first time and establish a novel Point Cloud-based Coronary Artery Completion (PC-CAC) dataset, which is derived from real clinical data. This dataset provides a novel benchmark for tubular structure reconnection. Additionally, we propose TSRNet, a novel Tubular Structure Reconnection Network that integrates a detail-preservated feature extractor, a multiple dense refinement strategy, and a global-to-local loss function to ensure accurate reconnection while maintaining structural integrity. Comprehensive experiments on our PC-CAC and two additional public datasets (PC-ImageCAS and PC-PTR) demonstrate that our method consistently outperforms state-of-the-art approaches across multiple evaluation metrics, setting a new benchmark for point cloud-based tubular structure reconstruction.
 
-
-
-
-  
 
 ## How to perform the voxel-to-point cloud conversion process.
 <div align="center"><img src="Fig/A.png" alt="results" style="zoom:60%;" /></div>
@@ -50,8 +48,7 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 <a name="ref1">[1]</a> ImageCAS: [https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)  
 <a name="ref2">[2]</a> PTR: [https://github.com/M3DV/pulmonary-tree-repairing](https://github.com/M3DV/pulmonary-tree-repairing)
 
-## Download Datasets
-> PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing)
+## Dataset
 
 ``` 📂 PC_CAC/
 ├── Train/               # Train dataset
