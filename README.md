@@ -46,16 +46,16 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 ``` 📂 PC_CAC/
 ├── Train/               # Train dataset
   ├── input_broken/      # Fractured vessel input (input)
-    ├── 1/
-      ├── 0.ply
-      ├── 1.ply
+    ├── 1/               # Patients ID = 1 (input)
+      ├── 0.ply          # Fractured case 0
+      ├── 1.ply          # Fractured case 1
       ├── ...
-      └── 7.ply
+      └── 7.ply          # Fractured case 7 (simulate 8 types)
     ├── 2/
     ├── ...
     └── 300/
   └── lable_complete/    # Fully connected vessel (ground truth)
-    ├── 1.ply
+    ├── 1.ply            # Patients ID = 1 (ground truth)
     ├── 2.ply
     ├── ...
     └── 300.ply
