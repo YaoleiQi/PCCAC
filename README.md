@@ -1,5 +1,10 @@
 # Rethinking the Detail-Preserved Integration of Complex Tubular Structures from a Unique Point Cloud Perspective: a Dataset and a Benchmark
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/monai?logo=monai)
+![GitHub repo size](https://img.shields.io/github/repo-size/YaoleiQi/PCCAC)
+![GitHub forks](https://img.shields.io/github/forks/YaoleiQi/PCCAC)
+[![GitHub](https://img.shields.io/github/stars/YaoleiQi/PCCAC)](https://github.com/YaoleiQi/PCCAC)
+
 ## Key Innovation
 - 🔍 **The first point cloud-based tubular structure reconnection dataset**: To our best knowledge, we build the first point cloud-based coronary artery (PC-CAC) dataset from clinical data. This dataset will be open-sourced, offering a new perspective for tubular structure reconnection and fostering advancements in this field.
 - ⚡ **A novel exploration and high-performing baseline**: Our work represents the first attempt to explore tubular structure reconnection from a point cloud perspective. We propose a baseline designed for accurately reconnecting fractured tubular structures, comprising a detail-preserved feature extractor, a multiple dense refinement strategy, and a global-to-local loss function. These methods cooperate to enhance detail preservation and effectively handle hard-to-represent regions.
