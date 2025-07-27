@@ -34,7 +34,8 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 ---
 
 > PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing)
-> 📂 PC_CAC/
+
+``` 📂 PC_CAC/
 ├── Train/               # Train dataset
   ├── input_broken/      # Fractured vessel input (input)
     ├── 1/
@@ -52,6 +53,7 @@ Complex tubular structures are essential in medical imaging and computer-assiste
     └── 300.ply
 ├── Test/               # Test dataset
 └── Val/                # Validation dataset
+
 
 ### 📌 Notes
 > To ensure a diverse and challenging reconstruction task, each patient generates 8 distinct input cases, capturing a wide range of conditions.
