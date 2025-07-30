@@ -1,4 +1,4 @@
-# Rethinking the Detail-Preserved Integration of Complex Tubular Structures from a Unique Point Cloud Perspective: a Dataset and a Benchmark
+# Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/monai?logo=monai)
 ![GitHub repo size](https://img.shields.io/github/repo-size/YaoleiQi/PCCAC)
