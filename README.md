@@ -11,7 +11,9 @@
 > **Download** PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing)
 -->
 
-📢
+## 📢 News
+- [June, 2026] The paper has been accepted by Medical Image Analysis.
+- [Aug, 2025] The paper is available on arXiv.
 
 
 ## Key Innovation
