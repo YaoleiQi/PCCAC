@@ -23,7 +23,7 @@ Yaolei Qi<sup>#</sup>, Yikai Yang<sup>#</sup>, Wenbo Peng, Shumei Miao, Yutao Hu
 ## 🔑 Key Innovation
 - **The first point cloud-based tubular structure reconnection dataset**: To our best knowledge, we build the first point cloud-based coronary artery (PC-CAC) dataset from clinical data. This dataset will be open-sourced, offering a new perspective for tubular structure reconnection and fostering advancements in this field.
 - **A novel exploration and high-performing baseline**: Our work represents the first attempt to explore tubular structure reconnection from a point cloud perspective. We propose a baseline designed for accurately reconnecting fractured tubular structures, comprising a detail-preserved feature extractor, a multiple dense refinement strategy, and a global-to-local loss function. These methods cooperate to enhance detail preservation and effectively handle hard-to-represent regions.
-- **A sufficient evaluation with experiments**: To objectively evaluate our approach, experiments are conducted on our PC-CAC dataset and two public datasets. Experimental results show that our method achieves state-of-the-art performance across multiple datasets.🔑
+- **A sufficient evaluation with experiments**: To objectively evaluate our approach, experiments are conducted on our PC-CAC dataset and two public datasets. Experimental results show that our method achieves state-of-the-art performance across multiple datasets.
 
 ## 🚀 Motivation
 <div align="center"><img src="Fig/Motivation_reb.png" alt="results" style="zoom:60%;" /></div>
