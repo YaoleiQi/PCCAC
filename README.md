@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2508.17658)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/monai?logo=monai)
 ![GitHub repo size](https://img.shields.io/github/repo-size/YaoleiQi/PCCAC)
-![Dataset_download](https://img.shields.io/badge/Dataset-Download-green)
+[![Dataset_download](https://img.shields.io/badge/Dataset-Download-green)](https://huggingface.co/datasets/Ryan710/PC-CAC/tree/main)
 ![GitHub forks](https://img.shields.io/github/forks/YaoleiQi/PCCAC)
 [![GitHub](https://img.shields.io/github/stars/YaoleiQi/PCCAC)](https://github.com/YaoleiQi/PCCAC)
 
