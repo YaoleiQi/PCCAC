@@ -84,15 +84,14 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 └── Val/                 # Validation dataset
 ```
 
-<!--
+
 ## Citation
-@InProceedings{Qi_2023_ICCV,<br/>
-    &emsp; author    = {Qi, Yaolei and He, Yuting and Qi, Xiaoming and Zhang, Yuan and Yang, Guanyu},<br/>
-    &emsp; title     = {Dynamic Snake Convolution Based on Topological Geometric Constraints for Tubular Structure Segmentation},<br/>
-    &emsp; booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br/>
-    &emsp; month     = {October},<br/>
-    &emsp; year      = {2023},<br/>
-    &emsp; pages     = {6070-6079}<br/>
+```
+@article{qi2025rethinking,<br/>
+  &emsp; title={Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark},
+  &emsp; author={Qi, Yaolei and Yang, Yikai and Peng, Wenbo and Miao, Shumei and Hu, Yutao and Yang, Guanyu},
+  &emsp; journal={arXiv preprint arXiv:2508.17658},
+  &emsp; year={2025}
 }
--->
+```
 
