@@ -62,7 +62,7 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 <a name="ref2">[2]</a> PTR: [https://github.com/M3DV/pulmonary-tree-repairing](https://github.com/M3DV/pulmonary-tree-repairing)
 
 ## Dataset
-**Download** PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing) | [Huggingface](https://huggingface.co/datasets/Ryan710/PC-CAC/tree/main)
+**Download** PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing) | [Huggingface](https://huggingface.co/datasets/Ryan710/PC-CAC/tree/main)
 
 ``` 📂 PC_CAC/
 ├── Train/               # Train dataset
