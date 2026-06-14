@@ -12,8 +12,8 @@
 -->
 
 ## 📢 News
-- [June, 2026] The paper has been accepted by Medical Image Analysis.
-- [Aug, 2025] The paper is available on arXiv.
+- [**June, 2026**] The paper has been accepted by **Medical Image Analysis** (MedIA).
+- [**Aug, 2025**] The paper is available on arXiv.
 
 
 ## Key Innovation
