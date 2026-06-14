@@ -11,6 +11,10 @@
 > **Download** PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing)
 -->
 
+<h2 align="center">Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark</h2>
+<h3 align="center">Yaolei Qi^{1,2}</h3>
+
+
 ## 📢 News
 - [**June, 2026**] We have released the **Dataset**: PC-CAC.
 - [**June, 2026**] The paper has been accepted by **Medical Image Analysis** (MedIA) [IF:11.8].
