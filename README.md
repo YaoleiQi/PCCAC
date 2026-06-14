@@ -54,7 +54,8 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 
 ---
 
-
+## 📊 Visualization
+<div align="center"><img src="Fig/Results.png" alt="results" style="zoom:60%;" /></div>
 
 
 ### 📌 Notes
