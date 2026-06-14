@@ -15,7 +15,7 @@ Yaolei Qi<sup>#</sup>, Yikai Yang<sup>#</sup>, Wenbo Peng, Shumei Miao, Yutao Hu
 
 
 ## 📢 News
-- [**June, 2026**] We have released the **Dataset**: PC-CAC.
+- [**June, 2026**] We have released the **Dataset**: **PC-CAC**.
 - [**June, 2026**] The paper has been accepted by **Medical Image Analysis** (MedIA) [IF:11.8].
 - [**Aug, 2025**] The paper is available on arXiv.
 
