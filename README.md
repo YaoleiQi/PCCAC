@@ -87,11 +87,11 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 
 ## Citation
 ```
-@article{qi2025rethinking,<br/>
-  &emsp; title={Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark},
-  &emsp; author={Qi, Yaolei and Yang, Yikai and Peng, Wenbo and Miao, Shumei and Hu, Yutao and Yang, Guanyu},
-  &emsp; journal={arXiv preprint arXiv:2508.17658},
-  &emsp; year={2025}
+@article{qi2025rethinking,
+  title={Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark},
+  author={Qi, Yaolei and Yang, Yikai and Peng, Wenbo and Miao, Shumei and Hu, Yutao and Yang, Guanyu},
+  journal={arXiv preprint arXiv:2508.17658},
+  year={2025}
 }
 ```
 
