@@ -20,6 +20,10 @@ Yaolei Qi<sup>#</sup>, Yikai Yang<sup>#</sup>, Wenbo Peng, Shumei Miao, Yutao Hu
 - [**Aug, 2025**] The paper is available on arXiv.
 
 
+## 📊 Visualization
+<div align="center"><img src="Fig/Results.png" alt="results" style="zoom:60%;" /></div>
+
+
 ## 🔑 Key Innovation
 - **The first point cloud-based tubular structure reconnection dataset**: To our best knowledge, we build the first point cloud-based coronary artery (PC-CAC) dataset from clinical data. This dataset will be open-sourced, offering a new perspective for tubular structure reconnection and fostering advancements in this field.
 - **A novel exploration and high-performing baseline**: Our work represents the first attempt to explore tubular structure reconnection from a point cloud perspective. We propose a baseline designed for accurately reconnecting fractured tubular structures, comprising a detail-preserved feature extractor, a multiple dense refinement strategy, and a global-to-local loss function. These methods cooperate to enhance detail preservation and effectively handle hard-to-represent regions.
@@ -53,9 +57,6 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 | PC-CAC | PC-CAC         | 300/40/87<br>2400/320/696 | 1. Scanner: SOMATOM Definition Flash <br> 2. x/y-resolution: 0.25 ~ 0.57 mm/voxel  <br> 3. Slice thickness: 0.75 ~ 3 mm/voxel  <br> 4. x/y-size: 512 voxels, z-size: 128 ~ 994 voxels | 1. Resample the resolution to 1 mm³  <br> 2. Normalize via `max(min(0,x),2048)/2048` <br> 3. Obtain segmentation results <br> 4. Extract **aorta** and main **coronary** branches <br> 5. Generate point cloud based on surface of **aorta** <br> 6. Generate point cloud based on centerline of **coronary** |
 
 ---
-
-## 📊 Visualization
-<div align="center"><img src="Fig/Results.png" alt="results" style="zoom:60%;" /></div>
 
 
 ### 📌 Notes
