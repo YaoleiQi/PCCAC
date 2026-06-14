@@ -11,7 +11,7 @@
 > **Download** PC-CAC datasets: [Baidu](https://pan.baidu.com/s/10-W0Crs0MXU2dYiiOY_RfA?pwd=7100) 7100 | [Google](https://drive.google.com/file/d/1XJ5Ks_T2aCU8tZVu6_d3n9_MbO4vaavD/view?usp=sharing)
 -->
 
-Yaolei Qi<sup>#</sup>, Yikai Yang<sup>#</sup>, Wenbo Peng, Shumei Miao, Yutao Hu<sup>✉</sup>, Guanyu Yang<sup>✉</sup>, Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark, Medical Image Anlaysis 2026
+Yaolei Qi<sup>#</sup>, Yikai Yang<sup>#</sup>, Wenbo Peng, Shumei Miao, Yutao Hu<sup>✉</sup>, Guanyu Yang<sup>✉</sup>, Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark, MedIA, 2026
 
 
 ## 📢 News
