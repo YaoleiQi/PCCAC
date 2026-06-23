@@ -101,6 +101,16 @@ Install other dependencies:
 pip install torch torchvision torchaudio
 ```
 
+If your project uses custom CUDA extensions such as Chamfer Distance, Earth Mover's Distance, or PointNet++ operators, please compile them before training or testing.
+For example:
+```bash
+cd extensions/chamfer_distance
+python setup.py install
+cd ../earth_movers_distance
+python setup.py install
+If pointnet2_ops is used, please also install or compile it according to your environment.
+```
+
 ## Citation
 ```
 @article{qi2025rethinking,
