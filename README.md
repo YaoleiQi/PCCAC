@@ -182,14 +182,94 @@ The script reports metrics including:
 - L2 Chamfer Distance
 - F-score
 - Density-aware Chamfer Distance, DCD
-- If you want to evaluate EMD separately:
 
+If you want to evaluate EMD separately:
 ```
 python test.py \
   --dataroot CAS \
   --ckpt_path log/TSRNet/all/checkpoints/best_all_l1_cd.pth \
   --emd \
   --device cuda:0
+```
+
+## 5. Saving Test Results
+By default, the test script saves reconstructed point clouds and visualization images to:
+
+```
+test_res/TSRNet/
+The saved results include:
+```
+
+```
+test_res/TSRNet/coronary/
+├── image/
+├── output_input/
+├── output_fps/
+├── output_coarse/
+├── output_res/
+└── output_gt/
+```
+If you do not want to save test results, use:
+
+```
+python test.py \
+  --dataroot CAS \
+  --ckpt_path log/TSRNet/all/checkpoints/best_all_l1_cd.pth \
+  --no_save
+```
+
+## 6. Inference on a Single Point Cloud
+You can also load TSRNet manually and run inference on a single point cloud:
+```
+import torch
+import open3d as o3d
+import numpy as np
+from models import TSRNet
+def read_point_cloud(path):
+    pcd = o3d.io.read_point_cloud(path)
+    return np.asarray(pcd.points, dtype=np.float32)
+def save_point_cloud(path, points):
+    pcd = o3d.geometry.PointCloud()
+    pcd.points = o3d.utility.Vector3dVector(points)
+    o3d.io.write_point_cloud(path, pcd, write_ascii=True)
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+model = TSRNet().to(device)
+model.load_state_dict(
+    torch.load("log/TSRNet/all/checkpoints/best_all_l1_cd.pth", map_location=device)
+)
+model.eval()
+points = read_point_cloud("example_partial.ply")
+points = torch.from_numpy(points).unsqueeze(0).to(device)
+with torch.no_grad():
+    coarse, fine, output = model(points)
+output_points = output[0].cpu().numpy()
+save_point_cloud("reconstructed.ply", output_points)
+```
+The final completed point cloud is output, while coarse and fine are intermediate reconstruction results.
+
+## 7. Model Output
+TSRNet returns three point clouds:
+
+```
+coarse, fine, output = model(partial)
+```
+where:
+
+- coarse: FPS-sampled coarse point cloud
+- fine: first-stage refined point cloud
+- output: final completed point cloud
+- 
+The input shape should be:
+
+```
+(B, N, 3)
+```
+and the output shape is typically:
+
+```
+coarse: (B, 1024, 3)
+fine:   (B, 2048, 3)
+output: (B, 4096, 3)
 ```
 
 
