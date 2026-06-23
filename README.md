@@ -1,7 +1,6 @@
 <h1 align="center">Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark</h1>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2308.14383-b31b1b.svg)](https://arxiv.org/abs/2508.17658)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/monai?logo=monai)
 ![GitHub repo size](https://img.shields.io/github/repo-size/YaoleiQi/PCCAC)
 [![Dataset_download](https://img.shields.io/badge/Dataset-Download-green)](https://huggingface.co/datasets/Ryan710/PC-CAC/tree/main)
 [![Checkpoint_download](https://img.shields.io/badge/Checkpoint-Download-orange)](https://drive.google.com/file/d/1KA7BT2xBvI-Od7zXrXPvJVlv_FJ0j15E/view?usp=drive_link)
