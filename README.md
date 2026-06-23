@@ -153,6 +153,46 @@ The training logs and checkpoints will be saved to:
 log/TSRNet/all/
 ```
 
+The best model based on L1 Chamfer Distance will be saved as:
+```
+log/TSRNet/all/checkpoints/best_all_l1_cd.pth
+```
+If you want to resume training from a pretrained checkpoint:
+```
+python train.py \
+  --dataroot CAS \
+  --ckpt_path log/TSRNet/all/checkpoints/best_all_l1_cd.pth \
+  --device cuda:0
+```
+
+## 4. Evaluation
+To evaluate the trained TSRNet model:
+
+```
+python test.py \
+  --dataroot CAS \
+  --ckpt_path log/TSRNet/all/checkpoints/best_all_l1_cd.pth \
+  --category all \
+  --batch_size 1 \
+  --device cuda:0
+```
+The script reports metrics including:
+
+- L1 Chamfer Distance
+- L2 Chamfer Distance
+- F-score
+- Density-aware Chamfer Distance, DCD
+- If you want to evaluate EMD separately:
+
+```
+python test.py \
+  --dataroot CAS \
+  --ckpt_path log/TSRNet/all/checkpoints/best_all_l1_cd.pth \
+  --emd \
+  --device cuda:0
+```
+
+
 ## Citation
 ```
 @article{qi2025rethinking,
