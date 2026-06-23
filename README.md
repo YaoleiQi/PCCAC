@@ -92,23 +92,65 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 ---
 ## 1. Environment Setup
 Create a Python environment and install the required dependencies:
-```bash
+```
 conda create -n tsrnet python=3.8
 conda activate tsrnet
 ```
 Install other dependencies:
-```bash
+```
 pip install torch torchvision torchaudio
 ```
 
 If your project uses custom CUDA extensions such as Chamfer Distance, Earth Mover's Distance, or PointNet++ operators, please compile them before training or testing.
 For example:
-```bash
+```
 cd extensions/chamfer_distance
 python setup.py install
 cd ../earth_movers_distance
 python setup.py install
 If pointnet2_ops is used, please also install or compile it according to your environment.
+```
+## 2. Dataset Preparation
+The dataset should be organized as follows:
+```
+CAS/
+├── train/
+│   ├── complete/
+│   │   ├── 1.ply
+│   │   ├── 2.ply
+│   │   └── ...
+│   └── partial/
+│       ├── 1/
+│       │   ├── 0.ply
+│       │   ├── 1.ply
+│       │   └── ...
+│       ├── 2/
+│       └── ...
+├── val/
+│   ├── complete/
+│   └── partial/
+├── test/
+│   ├── complete/
+│   └── partial/
+├── train.list
+├── val.list
+└── test.list
+```
+## 3. Training
+To train TSRNet from scratch, run:
+```
+python train.py \
+  --dataroot CAS \
+  --exp_name TSRNet \
+  --category all \
+  --batch_size 1 \
+  --epochs 400 \
+  --lr 0.0001 \
+  --device cuda:0
+```
+The training logs and checkpoints will be saved to:
+```
+log/TSRNet/all/
 ```
 
 ## Citation
