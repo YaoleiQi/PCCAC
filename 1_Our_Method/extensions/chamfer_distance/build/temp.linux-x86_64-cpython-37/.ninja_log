@@ -1,0 +1,3 @@
+# ninja log v5
+0	10757	1670501122401152252	/home/zoer/pcn-pytorch-self-master/extensions/chamfer_distance/build/temp.linux-x86_64-cpython-37/chamfer3D.o	882767ec2eccfb7d
+0	18104	1670501129749034229	/home/zoer/pcn-pytorch-self-master/extensions/chamfer_distance/build/temp.linux-x86_64-cpython-37/chamfer_cuda.o	a8f71cfcbdd7b663

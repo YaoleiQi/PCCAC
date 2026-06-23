@@ -1,0 +1,3 @@
+# ninja log v5
+1	12543	1670501171076370661	/home/zoer/pcn-pytorch-self-master/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd_kernel.o	b300e09259555566
+0	18378	1670501176908277052	/home/zoer/pcn-pytorch-self-master/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd.o	94d40c023e50e151
