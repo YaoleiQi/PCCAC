@@ -89,14 +89,15 @@ Complex tubular structures are essential in medical imaging and computer-assiste
 ```
 
 ## 🛠️ Usage
-This repository provides the implementation of **TSRNet** for coronary artery point cloud completion.  
-Given a partial / fractured coronary point cloud, TSRNet reconstructs a complete point cloud.
 ---
 ## 1. Environment Setup
 Create a Python environment and install the required dependencies:
 ```bash
 conda create -n tsrnet python=3.8
 conda activate tsrnet
+```
+Install other dependencies:
+```bash
 pip install torch torchvision torchaudio
 ```
 
