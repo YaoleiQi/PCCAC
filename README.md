@@ -276,11 +276,13 @@ output: (B, 4096, 3)
 
 ## Citation
 ```
-@article{qi2025rethinking,
-  title={Rethinking the Detail-Preserved Completion of Complex Tubular Structures based on Point Cloud: a Dataset and a Benchmark},
+@article{qi2026rethinking,
+  title={Rethinking the detail-preserved completion of complex tubular structures based on point cloud: A dataset and a benchmark},
   author={Qi, Yaolei and Yang, Yikai and Peng, Wenbo and Miao, Shumei and Hu, Yutao and Yang, Guanyu},
-  journal={arXiv preprint arXiv:2508.17658},
-  year={2025}
+  journal={Medical Image Analysis},
+  pages={104179},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
